@@ -1,0 +1,16 @@
+{
+  "name": "bitbucket-push-to-discord",
+  "version": "1.0.0",
+  "description": "A Google Cloud function to forward push commits in Bitbucket to Discord.",
+  "author": "Thomas Uta <code@thomasuta.com>",
+  "homepage": "www.oberion.io",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "main": "index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

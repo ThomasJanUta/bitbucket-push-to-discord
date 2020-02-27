@@ -1,0 +1,25 @@
+{
+  "COMMENT": "Use this JSON to test sending notifications from your local machine to your Discord channel",
+  "username": "bitbucket-commit-bot",
+  "embeds": [{
+    "title": "Test Discord integration",
+    "color": 477094,
+    "fields": [
+      {
+        "name": "Repository",
+        "value": "thriller-repo",
+        "inline": true
+      },
+      {
+        "name": "Branch",
+        "value": "develop",
+        "inline": true
+      },
+      {
+        "name": "Author",
+        "value": "Michael Jackson",
+        "inline": true
+      }
+    ]
+  }]
+}
